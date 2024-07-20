@@ -1,24 +1,60 @@
-import logo from './logo.svg';
-import './App.css';
-
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className="contacts">
+      
+      <div className="contact-card">
+        <img src="#"/>
+        <h3>Mr. Whiskerson</h3>
+        <div className="info-group">
+          <img src="#"/>
+          <p>(212) 555-1234</p>
+        </div>
+        <div className="info-group">
+          <img src="#"/>
+          <p>mr.whiskaz@catnap.meow</p>
+        </div>
+      </div>
+
+      <div className="contact-card">
+        <img src="#"/>
+        <h3>Fluffykins</h3>
+        <div className="info-group">
+          <img src="#"/>
+          <p>(212) 555-1234</p>
+        </div>
+        <div className="info-group">
+          <img src="#"/>
+          <p>mr.whiskaz@catnap.meow</p>
+        </div>
+      </div>
+
+      <div className="contact-card">
+        <img src="#"/>
+        <h3>Felix</h3>
+        <div className="info-group">
+          <img src="#"/>
+          <p>(212) 555-1234</p>
+        </div>
+        <div className="info-group">
+          <img src="#"/>
+          <p>mr.whiskaz@catnap.meow</p>
+        </div>
+      </div>
+
+      <div className="contact-card">
+        <img src="#"/>
+        <h3>Pumpkin</h3>
+        <div className="info-group">
+          <img src="#"/>
+          <p>(212) 555-1234</p>
+        </div>
+        <div className="info-group">
+          <img src="#"/>
+          <p>mr.whiskaz@catnap.meow</p>
+        </div>
+      </div>
     </div>
+    
   );
 }
 
